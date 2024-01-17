@@ -23,7 +23,7 @@ int main()
     cout<<str3;          cout <<"\n\n";
     
     // complete sentence input
-    cin.ignore(); // learn more about it
+    cin.ignore(100, '\n'); // to flush data from inut stream
     string str4; 
     getline(cin, str4);
     cout<<str4;          cout <<"\n\n";
